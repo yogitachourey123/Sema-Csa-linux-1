@@ -9,7 +9,5 @@
   tasks:
         - name: creating an empty file
           shell:
-           msg: "Hi {{ msg1 }}" 
-           msg: "Hi {{ msg2 }}" 
-           msg: "Hi {{ msg3 }}" 
+           msg: "Hi {{ arrayname }}" 
            
