@@ -1,4 +1,9 @@
 ---
 - name: ansible
-  debug: 
-    msg: "{{ name }} good girl"
+  hosts: all
+  vars:
+    user_name: "{{ user_name }}"
+  tasks:
+    - name: Debug message
+      debug:
+        msg: "Hello, {{ user_name }}"
