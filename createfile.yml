@@ -4,11 +4,11 @@
   tasks:
         - name: creating the user
           shell: |
-                echo "creating directory"
+                msg: "{{ msg1 }}"
                 sudo mkdir {{ dirname }}
-                echo "changing directory"
+                msg: "{{ msg2 }}"
                 sudo cd {{ dirname }}
-                echo "creating file"
+                msg: "{{ msg3 }}"
                 sudo touch {{ filename }}
                 
                 
