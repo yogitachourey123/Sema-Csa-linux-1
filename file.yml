@@ -8,6 +8,4 @@
      - msg3
   tasks:
         - name: creating an empty file
-          shell:
-           msg: "Hi {{ arrayname }}" 
-           
+          echo "{{msg1}}" "{{msg2}}" "{{msg3}}"
