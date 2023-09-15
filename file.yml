@@ -1,0 +1,7 @@
+---
+- name: create file
+  hosts: all
+  tasks:
+        - name: creating an empty file
+          shell:
+           msg: "Hi {{ name }}" 
