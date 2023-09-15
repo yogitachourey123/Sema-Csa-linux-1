@@ -1,0 +1,4 @@
+---
+- name: ansible
+  debug: 
+    msg: "{{ name }} good girl"
